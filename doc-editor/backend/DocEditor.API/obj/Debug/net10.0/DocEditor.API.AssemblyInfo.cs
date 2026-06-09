@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DocEditor.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd369b5512f35f8f9f21dfab01fadb553773f465")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f74273c6be5977b9f506f7a21f3e86cc711f19f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DocEditor.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DocEditor.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

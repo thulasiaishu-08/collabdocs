@@ -5,9 +5,6 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
-
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
@@ -18,12 +15,9 @@ builder.Services.AddScoped<IDocumentService, DocumentService>();
 
 builder.Services.AddCors(opts =>
     opts.AddPolicy("Frontend", p =>
-        p.WithOrigins(
-            "http://localhost:5173",
-            "https://your-frontend-domain.com"
-        )
-        .AllowAnyHeader()
-        .AllowAnyMethod()));
+        p.WithOrigins("http://localhost:5173")
+         .AllowAnyHeader()
+         .AllowAnyMethod()));
 
 var app = builder.Build();
 

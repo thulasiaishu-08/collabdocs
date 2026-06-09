@@ -203,3 +203,4 @@
 /Users/kishorp/Documents/doc/doc-editor/backend/DocEditor.API/obj/Debug/net10.0/DocEditor.API.pdb
 /Users/kishorp/Documents/doc/doc-editor/backend/DocEditor.API/obj/Debug/net10.0/DocEditor.API.genruntimeconfig.cache
 /Users/kishorp/Documents/doc/doc-editor/backend/DocEditor.API/obj/Debug/net10.0/ref/DocEditor.API.dll
+/Users/kishorp/Documents/doc/doc-editor/backend/DocEditor.API/obj/Debug/net10.0/DocEditor.API.sourcelink.json
